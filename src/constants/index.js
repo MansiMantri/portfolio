@@ -52,5 +52,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
  
-  email: "mansimantri902@gmail.com",
+  email: "mmantri@wpi.edu",
 };
