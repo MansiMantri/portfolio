@@ -2,8 +2,7 @@
 import logo from "../assets/logo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Navbar = () => {
   return (
@@ -20,10 +19,16 @@ const Navbar = () => {
           className="hover:text-blue-500 transition-colors duration-300"
         >
           <FaLinkedin />
-        </a>
-        {/* <FaGithub />
-        <FaSquareXTwitter />
-        <FaInstagram /> */}
+          </a>
+                      <a 
+              href="mailto:mmantri@wpi.edu" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 transition-colors duration-300"
+                            >
+                  <HiOutlineMail />
+                </a>
+                
       </div>
     </nav>
   )

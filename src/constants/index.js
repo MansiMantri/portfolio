@@ -3,16 +3,17 @@ import project2 from "../assets/projects/coffeeapp.jpg";
 import project3 from "../assets/projects/aivoice.jpg";
 
 
-export const HERO_CONTENT = `I'm a passionate full-stack developer with a Computer Science degree, skilled in React, Node.js, and PostgreSQL. I create robust, user-focused applications that prioritize performance and seamless functionality. Passionate about technology and continuous learning, I’m driven to build solutions that make an impact.`;
+export const HERO_CONTENT = `I’m a creative full-stack developer with a strong foundation in Computer Science, specializing in building seamless, user-friendly applications. Driven by a commitment to innovation, I enjoy transforming ideas into impactful digital solutions.`;
 
-export const ABOUT_TEXT = `I am a full-stack developer with a Computer Science degree and a commitment to delivering high-quality, impactful digital solutions. Proficient in a broad tech stack, including React, Node.js, and PostgreSQL, I bring a balanced approach to both front-end and back-end development. I focus on creating seamless, user-focused applications with robust architectures, optimized performance, and intuitive interfaces. My passion for technology drives me to continually deepen my expertise, embrace emerging trends, and solve complex problems through innovative thinking. Dedicated to professional growth, I am excited to contribute my skills to projects that prioritize both functionality and user experience.`;
+export const ABOUT_TEXT = `I am a passionate and results-driven full-stack developer with a strong academic foundation in Computer Science and a proven track record of delivering impactful digital solutions. With expertise in React, Node.js, PostgreSQL, and Docker, I specialize in building scalable, user-centric applications with seamless functionality and optimized performance. My experience includes developing AI-powered systems and innovative platforms, such as a ticket booking application and a voice assistant, showcasing my ability to tackle complex challenges with creativity and technical proficiency. Continuously learning and adapting to emerging technologies, I am dedicated to crafting solutions that balance technical excellence with exceptional user experiences.`;
+
 export const EXPERIENCES = [
   {
     year: "Jan 2024 – Jun 2024",
     role: "Design Engineer Intern",
     company: " Atlas Copco",
     description: `Developed a Controller Booking System using JavaScript, Node.js, and MySQL. Deployed the system using Docker for containerization, collaborating with cross-functional teams to integrate and deploy the solution. Conducted thorough testing and debugging to ensure stability and performance.`,
-    technologies: ["JavaScript", "Node.js", "MySQL", "Docker"],
+    technologies: ["JavaScript", "Node.js","React","Tailwind CSS","Nextjs", "PostgresSQL", "Docker"],
   },
   {
     year: "Jan 2023 – Dec 2023",
