@@ -1,6 +1,8 @@
 import project1 from "../assets/projects/googledoc.jpg";
 import project2 from "../assets/projects/coffeeapp.jpg";
 import project3 from "../assets/projects/aivoice.jpg";
+import project4 from "../assets/projects/stadiumbooking.jpg";
+import project5 from "../assets/projects/stocksensei.jpg";
 
 
 export const HERO_CONTENT = `I’m a creative full-stack developer with a strong foundation in Computer Science, specializing in building seamless, user-friendly applications. Driven by a commitment to innovation, I enjoy transforming ideas into impactful digital solutions.`;
@@ -24,8 +26,15 @@ export const EXPERIENCES = [
   }
 ];
 
-
 export const PROJECTS = [
+
+  {
+    title: "Arena Vibes - Ticket Booking System",
+    image: project4,
+    description:
+      "An efficient ticket booking platform with features like seat selection, real-time booking confirmation, and automated invoice generation. Optimized database queries and designed a responsive user interface to improve user satisfaction by 25%.",
+    technologies: ["React", "Node.js", "PostgreSQL", "Tailwind CSS", "Git"],
+  },
   {
     title: "Google Doc Clone",
     image: project1,
@@ -46,12 +55,20 @@ export const PROJECTS = [
     description:
       "A virtual assistant incorporating speech recognition, natural language processing, and task automation. Enhanced with text-to-speech and multi-language support, and optimized using machine learning algorithms.",
     technologies: ["Python", "NLP", "Machine Learning"],
-  }
+  },
+ 
+  {
+    title: "Stock Sensei - Intelligent Stock Market Forecasting Tool",
+    image: project5,
+    description:
+      "An advanced forecasting tool leveraging ARIMA, SARIMA, and Prophet models for analyzing historical stock data. Provided 95%+ accurate trend predictions, visualizations, and insights to empower investment decisions.",
+    technologies: ["ML", "PostgreSQL", "Python", "HTML", "CSS"],
+  },
 ];
 
 
+
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
  
   email: "mmantri@wpi.edu",
 };
