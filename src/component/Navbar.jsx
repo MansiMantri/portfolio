@@ -29,6 +29,14 @@ const Navbar = () => {
                   <HiOutlineMail />
                 </a>
                 
+                <a
+          href="https://github.com/MansiMantri"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-400 transition-colors duration-300"
+        >
+          <FaGithub />
+        </a>
       </div>
     </nav>
   )
